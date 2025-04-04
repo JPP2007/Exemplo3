@@ -51,3 +51,19 @@ console.log(numint.toString())
 //string => int
 let numString = "120"
 console.log(parseInt(numString))
+
+//metodos
+
+//metodos length - verifica o tamanho da string
+let frase = "O munda da tecnologia";
+console.log(frase.length)
+
+//metodo indexof/lastIndexOf -retorna um trecho do seu codigo
+let texto = "Programação Sustentável ão";
+console.log(texto.lastIndexOf("ão"))
+
+//metodo slice - retorna parte do texto passando inicio e o final
+let info = "Programação de ponta";
+console.log(info.slice(2,6))
+
+
