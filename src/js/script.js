@@ -1,165 +1,191 @@
-// Declaração e Variaveis
-var nome ="fiap";
-console.log(nome)
+// // Declaração e Variaveis
+// var nome ="fiap";
+// console.log(nome)
 
-let idade= "18";
-console.log(idade)
+// let idade= "18";
+// console.log(idade)
 
-const sobrenome ="fiapinho";
-console.log(sobrenome)
+// const sobrenome ="fiapinho";
+// console.log(sobrenome)
 
-//undefined 
+// //undefined 
 
-let exemplo;
-console.log(exemplo)
+// let exemplo;
+// console.log(exemplo)
 
-//nula
-let exemplo1 = null
-console.log(exemplo1)
+// //nula
+// let exemplo1 = null
+// console.log(exemplo1)
 
-//Tipos de variaveis 
+// //Tipos de variaveis 
 
-let ex1 = "Fiap";
-console.log(typeof ex1)
+// let ex1 = "Fiap";
+// console.log(typeof ex1)
 
-let ex2 = 25;
-console.log(typeof ex2)
+// let ex2 = 25;
+// console.log(typeof ex2)
 
-let ex3 = true
-console.log(typeof ex3)
+// let ex3 = true
+// console.log(typeof ex3)
 
-let ex4 = {};
-console.log(typeof ex4)
+// let ex4 = {};
+// console.log(typeof ex4)
 
-let ex5 = [];
-console.log(typeof ex5)
+// let ex5 = [];
+// console.log(typeof ex5)
 
-//Conversões
+// //Conversões
 
-//float => string
-let numfloat = 123.456;
-console.log(numfloat.toString())
+// //float => string
+// let numfloat = 123.456;
+// console.log(numfloat.toString())
 
-//string => float
-let numstring = "12.963"
-console.log(parseFloat(numstring))
+// //string => float
+// let numstring = "12.963"
+// console.log(parseFloat(numstring))
 
-//int => string
-let numint = 100;
-console.log(numint.toString())
+// //int => string
+// let numint = 100;
+// console.log(numint.toString())
 
-//string => int
-let numString = "120"
-console.log(parseInt(numString))
+// //string => int
+// let numString = "120"
+// console.log(parseInt(numString))
 
-//metodos
+// //metodos
 
-//metodos length - verifica o tamanho da string
-let frase = "O munda da tecnologia";
-console.log(frase.length)
+// //metodos length - verifica o tamanho da string
+// let frase = "O munda da tecnologia";
+// console.log(frase.length)
 
-//metodo indexof/lastIndexOf -retorna um trecho do seu codigo
-let texto = "Programação Sustentável ão";
-console.log(texto.lastIndexOf("ão"))
+// //metodo indexof/lastIndexOf -retorna um trecho do seu codigo
+// let texto = "Programação Sustentável ão";
+// console.log(texto.lastIndexOf("ão"))
 
-//metodo slice - retorna parte do texto passando inicio e o final
-let info = "Programação de ponta";
-console.log(info.slice(2,6))
+// //metodo slice - retorna parte do texto passando inicio e o final
+// let info = "Programação de ponta";
+// console.log(info.slice(2,6))
 
-//Operadores aritimeticos
+// //Operadores aritimeticos
 
-const a = 10;
-const b = 20;
+// const a = 10;
+// const b = 20;
 
-console.log( a + b);
-console.log( a - b);
-console.log( a * b);
-console.log( a / b);
+// console.log( a + b);
+// console.log( a - b);
+// console.log( a * b);
+// console.log( a / b);
 
-//Operadores logicos
+// //Operadores logicos
 
-const c = 20;
-const d = 30;
+// const c = 20;
+// const d = 30;
 
-console.log( c < d);
-console.log( c > d);
-console.log( c > d && c < 10);
-console.log( c > d || d > c);
-console.log( c == d || d <= c)
+// console.log( c < d);
+// console.log( c > d);
+// console.log( c > d && c < 10);
+// console.log( c > d || d > c);
+// console.log( c == d || d <= c)
 
-//Operadores de comparação 
+// //Operadores de comparação 
 
-const e = 10;
-const f = 30;
+// const e = 10;
+// const f = 30;
 
-console.log(e == d);
-console.log(e === f);
-console.log(e != f);
+// console.log(e == d);
+// console.log(e === f);
+// console.log(e != f);
 
-//Condicional
+// //Condicional
 
-//if 
-if(true){
-    console.log("é verdadeiro")
-}
+// //if 
+// if(true){
+//     console.log("é verdadeiro")
+// }
 
-let exempl1= 1
-if(exempl1 ==1){
-    console.log("esta correto")
-}
+// let exempl1= 1
+// if(exempl1 ==1){
+//     console.log("esta correto")
+// }
 
-//if/else
-let nom = "fiap"
+// //if/else
+// let nom = "fiap"
 
-if(nom == "Fiap"){
-    console.log("Nome correto")
-    // document.write("Nome certo")
-}
-else{
-    console.log("Nome Errado")
-    // document.write("Nome Errado")
-}
+// if(nom == "Fiap"){
+//     console.log("Nome correto")
+//     // document.write("Nome certo")
+// }
+// else{
+//     console.log("Nome Errado")
+//     // document.write("Nome Errado")
+// }
 
-//if encadeado ou aninhado
+// //if encadeado ou aninhado
 
 
-let idadi = 51;
-if (idadi <= 14) {
-    console.log("Não pode entrar")
-}
-else if (idadi > 14 && idadi <= 18) {
-    console.log("pode entrar e curtir")
-}
-else if (idadi > 18 && idadi <= 50) {
-    console.log("Perigo seus pais estão na balada")
-}
-else {
-    console.log("Você deve ficar no sofá assistindo")
-}
-//switch case
+// let idadi = 51;
+// if (idadi <= 14) {
+//     console.log("Não pode entrar")
+// }
+// else if (idadi > 14 && idadi <= 18) {
+//     console.log("pode entrar e curtir")
+// }
+// else if (idadi > 18 && idadi <= 50) {
+//     console.log("Perigo seus pais estão na balada")
+// }
+// else {
+//     console.log("Você deve ficar no sofá assistindo")
+// }
+// //switch case
 
-let time ="corinthians";
+// let time ="corinthians";
 
-switch(time){
-    case "corinthians":
-        console.log("melhor time")
-        break;
-    case "sao paulo":
-        console.log("é tão ruim que consegue me casa")
-        break;
-    case "palmeiras":
-        console.log("sm mundial")
-        break;
-    default:
-        console.log("nenhuma das opção validas")
-}
+// switch(time){
+//     case "corinthians":
+//         console.log("melhor time")
+//         break;
+//     case "sao paulo":
+//         console.log("é tão ruim que consegue me casa")
+//         break;
+//     case "palmeiras":
+//         console.log("sm mundial")
+//         break;
+//     default:
+//         console.log("nenhuma das opção validas")
+// }
 
-//Ternario
+// //Ternario
 
-let valor=100;
-let resultado = valor == 100 ? "valor certo": "valor errado"
-console.log(resultado);
+// let valor=100;
+// let resultado = valor == 100 ? "valor certo": "valor errado"
+// console.log(resultado);
 
-let nota = 6
-let media = nota >= 6 ? "aprovado" : "reprovado"
-console.log(media);
+// let nota = 6
+// let media = nota >= 6 ? "aprovado" : "reprovado"
+// console.log(media);
+
+// //estrutura de repetição
+
+// for (let i=0;i<10;i++){
+//     console.log("o valor de I é", i)
+// }
+
+// //white
+
+// let v=0;
+// while(v <10){
+//     console.log("o valor de f é", f)
+//     v++;
+// }
+
+// // do while
+
+// let w= 0;
+// do{
+//     console.log("do while", w)
+//     w++
+// }while(w <= 20)
+
+//Jogo de advinhação
+
+let palpite;
