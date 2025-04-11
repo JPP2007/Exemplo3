@@ -189,11 +189,18 @@
 //Jogo de advinhação
 
 //declarando uma variavel indefinidade
-let palpite;
+// let palpite;
 
-const sorteio = Math.floor(Math.random() * 10)+1;
+// const sorteio = Math.floor(Math.random() * 10)+1;
 
-do{
-    palpite =parseInt(prompt("escolha um numero entre 1 e 10"))
-}while(palpite !== sorteio)
-    alert(`Parabéns você ganhou o jogo ${palpite}`)
+// do{
+//     palpite =parseInt(prompt("escolha um numero entre 1 e 10"))
+// }while(palpite !== sorteio)
+//     alert(`Parabéns você ganhou o jogo ${palpite}`)
+
+//funções
+ function saudacao(nome){
+    console.log(`Seja bem-vindo ${nome}`)
+    console.log("Seja bem-vindo", nome)
+ }
+ saudacao("fiap")
